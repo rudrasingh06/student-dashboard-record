@@ -98,6 +98,12 @@ const Dashboard = () => {
                       >
                         Delete
                       </button>
+                      <button
+                         onClick={() => navigate(`/view-student/${s.id}`)}
+                         className="bg-green-500 text-white px-3 py-1 rounded hover:bg-green-600"
+                       >
+                        View
+                      </button>
                     </td>
                   </tr>
                 ))
