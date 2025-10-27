@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import LoginForm from "./components/loginform/LoginForm"
 import Dashboard from "./pages/dashboard/Dashboard";
-import AddStudent from "./components/studentform/StudentForm"
+import AddStudent from "./components/student/StudentForm"
 import Analytics from "./components/analytics/Analytics"
 import StudentDetails from "./components/student/StudentDetails";
 
