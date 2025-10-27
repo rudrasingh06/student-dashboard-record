@@ -4,6 +4,8 @@ import LoginForm from "./components/loginform/LoginForm"
 import Dashboard from "./pages/dashboard/Dashboard";
 import AddStudent from "./components/studentform/StudentForm"
 import Analytics from "./components/analytics/Analytics"
+import StudentDetails from "./components/student/StudentDetails";
+
 
 function PrivateRoute({ children }) {
   const token = localStorage.getItem("token");
